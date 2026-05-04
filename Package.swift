@@ -11,7 +11,7 @@ let package = Package(
         .binaryTarget(
             name: "ZeroTalkSDK",
             url: "https://github.com/generativelab-develop/zerotalk-ios-sdk/releases/download/v0.1.0/ZeroTalkSDK.xcframework.zip",
-            checksum: "654bdbcc63e773f8bc0748e43bd42867c82e5b61cccecb9a00ac51f3208b5896"
+            checksum: "c8c02817773c1758d212a672c9ce883538c0fe89adb1f026a3ce9d85fcada4e2"
         ),
         // SPM single binaryTarget visibility bug workaround
         .target(name: "_ZeroTalkSDKTarget"),
